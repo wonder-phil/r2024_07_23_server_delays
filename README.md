@@ -1,10 +1,11 @@
 ﻿# r2024_07_23_server_delays
 
 > npm install
+> 
 > npm start
 
->> another terminal
->> curl http://localhost:3001/hello?data=foobar
+>> In another terminal
+>>   curl http://localhost:3001/hello?data=foobar
 
 In code:
 const dispatchAndResetEmail = async () => { 
